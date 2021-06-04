@@ -18,7 +18,7 @@ fetchMyIP((error, ip) => {
     }
     console.log("It worked! Returned coordinates:", coord);
 
-    const sampleCoord = { latitude: "49.2681884765625", longitude: "-123.10179138183594" };
+    const sampleCoord = { latitude: "", longitude: "" };
 
     fetchISSFlyOverTimes(sampleCoord, (error, passTimes) => {
       if (error) {
